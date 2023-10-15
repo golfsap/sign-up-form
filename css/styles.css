@@ -1,8 +1,11 @@
 @import url(./normalize.css);
 
 body {
+    color: black;
     background-color: #EAEDF0;
-    color: rebeccapurple;
+    /* font-family: 'Amatic SC', sans-serif; */
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
 }
 
 .flex-container {
@@ -17,10 +20,36 @@ section {
     border: 1px solid red;
 }
 
+.image-container {
+    position: relative;
+    height: 100vh;
+}
+
+.sidebar-title {
+    position: absolute;
+    top: 10%;
+    border: 1px solid white;
+    background-color: #5D6063;
+    opacity: 0.5;
+    width: auto;
+}
+
+.sidebar-title h1 { 
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 1.5rem;   
+    color: black;
+}
+
+.image-container p {
+    color: #EAEDF0;
+    position: absolute;
+    bottom: 0%;
+}
+
 .content-container {
     display: flex;
     flex-direction: column;
 }
 .background-image {
-    width: 200px;
+    /* height: 100vh; */
 }
