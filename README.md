@@ -1,0 +1,1 @@
+A sign up form using html and css to practice designing form layouts, using form controls, styling forms and additionally using form validation as well.

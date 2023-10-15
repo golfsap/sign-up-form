@@ -1,0 +1,26 @@
+@import url(./normalize.css);
+
+body {
+    background-color: #EAEDF0;
+    color: rebeccapurple;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    width: auto;
+    border: 1px solid red;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+.background-image {
+    width: 200px;
+}
