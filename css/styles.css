@@ -159,10 +159,18 @@ form p {
 input {
     width: 200px;
     border: 1px solid #E5E7EB;
+    border-radius: 4px;
     -webkit-transition: 0.5s;
-    transition: 0.5s;
+    transition: 0.5s ease;
+    outline: none;  
 }
 
 input:focus {
-    border: 1px solid blue;
+    border-color: #50b6fa;
+    box-shadow: 0 0 3px #50b6fa;
+}
+
+input[type="password"]:invalid {
+    border-color: #f00;
+    box-shadow: 0 0 3px #f00;
 }
